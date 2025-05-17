@@ -26,7 +26,15 @@ class _asosState extends State<asos> {
               },
               child: Text("youtube"),
             ),
-      Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Tl7g5G8-Bg1RVjlc4qhZQ2hvnMhVM6oX0Q&s")    ],
+            Row(
+              children: [
+                Image.network(
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Tl7g5G8-Bg1RVjlc4qhZQ2hvnMhVM6oX0Q&s",
+                ),
+             Container(width: 200,height: 300,
+              child: Image.asset("rasm/2kofe.jpg")) ],
+            ),
+          ],
         ),
       ),
     );
